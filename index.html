@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/bootstrap.css">
+        <link rel="stylesheet" href="css/micss.css">
+    </head>
+
+    <body>
+        <img id="imagen_titulo" src="img/titulo_pokedex.png" class="img-fluid" alt="...">
+        <br>
+        <br>
+        <br>
+        <br>
+        <div class="container">
+            <div class="row">
+                <input id="txt-busqueda" placeholder="Escribe el nombre del pokemon aquí..." type="text" style="width: 30rem; margin: 0 auto;">
+            </div>
+            <br>
+            <div class="row">
+                <button id="btn-buscar" class="btn btn-primary" onclick="buscarPokemon()" placeholder="Escribe el nombre del pokemon aquí..." style="width: 10rem; margin: 0 auto;">Buscar pokemon</button>
+            </div>
+            <br>
+            <div class="row">
+                <div id="main_card" class="card col-12 text-center" style="width: 20rem; margin: 0 auto;">
+                    <img id="pokemon_image" src="..." class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 id="nombre-pokemon" class="card-title">
+
+                        </h5>
+                        <p class="card-text">
+
+                        </p>
+                        <br>
+                        <a href="index.html" class="btn btn-primary">Busca otro POKEMON!</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+        <script src="llamados.js"></script>
+    </body>
+    <br>
+    <br>
+
+</html>

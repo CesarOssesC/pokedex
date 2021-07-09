@@ -1,0 +1,27 @@
+body {
+    background: url(../img/WallpaperDogs-743770.jpg);
+}
+
+#imagen_titulo {
+    vertical-align: top;
+    display: inline-block;
+    padding: 0 0 0 40%;
+    opacity: 0.95;
+}
+
+#txt-busqueda {
+    display: inline-block;
+}
+
+#btn-buscar {
+    display: inline-block;
+}
+
+.card {
+    opacity: 0.95;
+}
+
+.btn {
+    background-color: blue;
+    color: whitesmoke
+}

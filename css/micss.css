@@ -1,11 +1,13 @@
 body {
     background: url(../img/WallpaperDogs-743770.jpg);
+    background-color: aliceblue;
+    background-blend-mode: luminosity;
 }
 
 #imagen_titulo {
     vertical-align: top;
     display: inline-block;
-    padding: 0 0 0 40%;
+    padding: 0 0 0 37%;
     opacity: 0.95;
 }
 
@@ -18,10 +20,19 @@ body {
 }
 
 .card {
+    vertical-align: top;
+    display: inline-block;
     opacity: 0.95;
+    background-image: url(../img/pokedex.jpg);
+    background-size: cover;
 }
 
 .btn {
     background-color: blue;
     color: whitesmoke
 }
+
+
+
+
+

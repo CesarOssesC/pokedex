@@ -25,6 +25,8 @@ function buscarPokemon() {
             <br>
             </p>
             `)
+        $("#txt-busqueda").hide()
+        $("#btn-buscar").hide()
 
             
         

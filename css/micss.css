@@ -23,8 +23,15 @@ body {
     vertical-align: top;
     display: inline-block;
     opacity: 0.95;
-    background-image: url(../img/pokedex.jpg);
-    background-size: cover;
+    background-color: red;
+    color: whitesmoke;
+    /* background-image: url(../img/pokedex.jpg);
+    background-size: cover; */
+}
+
+#pokemon_image {
+    background-color: white;
+    width: 70%;
 }
 
 .btn {

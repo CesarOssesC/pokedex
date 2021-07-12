@@ -9,14 +9,16 @@ function buscarPokemon() {
             nueva_etiqueta = `
             <img src="${datos.sprites.front_default}">
         `
-            $("#pokemon_image").attr("src", datos.sprites.front_default)
+            $("#pokemon_image").attr("src", datos.sprites.other.dream_world.front_default)
 
             $("#nombre-pokemon").text(datos.species.name)
 
             $(".card-text").html(`
             <p>
-            N° : ${datos.id} 
+            N°: ${datos.id} 
             <br> 
+            Tipo: ${datos.types[0].type.name}
+            <br>
             Altura: ${datos.height}
             <br>
             Peso: ${datos.weight}
